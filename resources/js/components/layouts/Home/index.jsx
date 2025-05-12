@@ -4,7 +4,7 @@ import Footer from "../../commons/molecules/Footer";
 
 const Home = () => {
     return (
-        <main className="flex min-h-screen flex-col bg-[#121212]">
+        <main className="flex min-h-screen flex-col bg-(--bg-primary-cray)">
             {/* Start:: Navbar */}
             <Navbar />
             {/* End:: Navbar */}
