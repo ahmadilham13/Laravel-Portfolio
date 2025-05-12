@@ -1,5 +1,4 @@
-import MainLayout from "../../components/layouts/MainLayout";
-import AboutPage from "../pages/AboutPage";
+import Home from "../components/layouts/Home";
 import HomePage from "../pages/HomePage";
 import PageNotFound from "../pages/PageNotFound";
 
@@ -7,7 +6,7 @@ const AppRoutes = [
     {
         name: "main",
         path: "/",
-        Component: MainLayout,
+        Component: Home,
         key: "main",
         routes: [
             {
@@ -17,12 +16,6 @@ const AppRoutes = [
                 index: true,
                 requireAuth: false,
                 Component: HomePage,
-            },
-            {
-                key: "about",
-                name: "about",
-                path: "/about",
-                Component: AboutPage,
             },
         ],
     },
