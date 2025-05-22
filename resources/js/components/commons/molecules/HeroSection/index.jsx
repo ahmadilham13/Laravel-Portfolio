@@ -21,8 +21,8 @@ const HeroSection = () => {
                         Selamat datang di dunia kreativitas saya! Silakan jelajahi portofolio ini untuk melihat berbagai proyek dan desain yang telah saya kerjakan.
                     </p>
                     <div>
-                        <button className="px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 hover:bg-slate-200 text-white">Hire Me</button>
-                        <button className="px-1 py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 hover:bg-slate-800 text-white mt-3" onClick={saveFile}>
+                        <button onClick={() => window.open("mailto:ahmad13ilham13@gmail.com", "_blank")} className="px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 hover:bg-slate-200 text-white cursor-pointer">Hire Me</button>
+                        <button className="px-1 py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 hover:bg-slate-800 text-white mt-3 cursor-pointer" onClick={saveFile}>
                             <span className="block bg-(--bg-primary-cray) hover:bg-slate-800 rounded-full px-5 py-2">Download CV</span>
                         </button>
                     </div>
