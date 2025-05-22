@@ -5,30 +5,21 @@ import ProjectCard from "../../atoms/ProjectCard"
 const projectsData = [
     {
         id: 1,
-        title: "ILM ANIME",
-        description: "My Web List Anime Development using Framework NextJS 13",
-        image: "/images/statics/projects/1.webp",
+        title: "ILM Topup (DEVELOPMENT)",
+        description: "My Web Topup using Nuxt js (Vue)",
+        image: "/images/statics/projects/1.png",
         tag: ["All", "Web"],
         gitUrl: "",
-        previewUrl: "https://ilm-anime.ahmadilm.com/"
+        // previewUrl: "http://ilmtopup.ahmadilm.com/"
     },
     {
         id: 2,
-        title: "ILM Topup (DEVELOPMENT)",
-        description: "My Web Topup using Nuxt js (Vue)",
+        title: "ILM Topup API (DEVELOPMENT)",
+        description: "My API Topup using Asp.Net (C#)",
         image: "/images/statics/projects/2.png",
         tag: ["All", "Web"],
         gitUrl: "",
-        previewUrl: "http://ilmtopup.ahmadilm.com/"
-    },
-    {
-        id: 3,
-        title: "ILM Topup API (DEVELOPMENT)",
-        description: "My API Topup using Asp.Net (C#)",
-        image: "/images/statics/projects/3.png",
-        tag: ["All", "Web"],
-        gitUrl: "",
-        previewUrl: "http://ilm-be.ahmadilm.com/swagger/index.html"
+        // previewUrl: "http://ilm-be.ahmadilm.com/swagger/index.html"
     },
 ]
 
